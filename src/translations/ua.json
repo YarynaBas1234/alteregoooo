@@ -1,0 +1,36 @@
+{
+  "translation": {
+    "HEADER": {
+      "LOGO": "Логотип",
+      "HOME": "Домашня сторінка",
+      "NEWS": "Новини",
+      "PROFILE": "Профіль",
+      "LOGIN": "Логін"
+    },
+    "PROFILE_PAGE": {
+      "PHONE": "Номер телефону",
+      "URL": "URL адрес",
+      "EMAIL": "Е-пошта"
+    },
+    "TITLES": {
+      "HOME_TITLE": "Домашня сторінка",
+      "NEWS_TITLE": "Новини",
+      "PROFILE_TITLE": "Профіль",
+      "LOGIN_TITLE": "Увійти в систему"
+    },
+    "BUTTONS": {
+      "LOAD_MORE": "Завантажити ще",
+      "DELETE": "Видалити",
+      "LOGIN": "Авторизуватись",
+      "LOGOUT": "Вийти",
+      "HOME": "Домашня сторінка"
+    },
+    "LABELS": {
+      "USERNAME": "Ім'я користувача",
+      "PASSWORD": "Пароль"
+    },
+    "FIELD_ERRORS": {
+      "EMPTY": "Поле не може бути порожнім"
+    }
+  }
+}

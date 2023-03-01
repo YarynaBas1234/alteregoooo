@@ -1,0 +1,36 @@
+{
+  "translation": {
+    "HEADER": {
+      "LOGO": "Logo",
+      "HOME": "Home",
+      "NEWS": "News",
+      "PROFILE": "Profile",
+      "LOGIN": "Login"
+    },
+    "PROFILE_PAGE": {
+      "PHONE": "Phone number",
+      "URL": "URL",
+      "EMAIL": "Email"
+    },
+    "TITLES": {
+      "HOME_TITLE": "Home page",
+      "NEWS_TITLE": "News",
+      "PROFILE_TITLE": "Profile",
+      "LOGIN_TITLE": "Login"
+    },
+    "BUTTONS": {
+      "LOAD_MORE": "Load more",
+      "DELETE": "Delete",
+      "LOGIN": "Login",
+      "LOGOUT": "Logout",
+      "HOME": "Home page"
+    },
+    "LABELS": {
+      "USERNAME": "Username",
+      "PASSWORD": "Password"
+    },
+    "FIELD_ERRORS": {
+      "EMPTY": "The field cannot be empty"
+    }
+  }
+}
