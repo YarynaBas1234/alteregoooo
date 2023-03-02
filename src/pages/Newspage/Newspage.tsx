@@ -6,9 +6,9 @@ import { useTranslation } from 'react-i18next';
 import { useAppSelector, useAppDispatch } from 'src/redux/hooks';
 import { deletePostById, fetchPosts } from 'src/redux/posts/postsService';
 import { IPost } from 'src/redux/posts/interfaces';
-import { LinkButton, Wrapper } from 'src/_components';
+import { LinkButton, Wrapper } from 'src/components';
 
-import { PostComponent } from './_components';
+import { PostComponent } from './components';
 
 const useStyles = makeStyles({
 	wrapper: {

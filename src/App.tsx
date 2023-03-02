@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 import AuthorizationPage from './pages/AuthorizationPage';
 import Homepage from './pages/Homepage';
 import Newspage from './pages/Newspage';
-import Header from './_components';
+import Header from './components';
 import { RoutePathConst, userData } from './constants';
 import { useAppDispatch, useAppSelector } from './redux/hooks';
 import ProfilePage from './pages/ProfilePage';

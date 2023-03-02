@@ -5,7 +5,7 @@ import { Box, Grid, Typography } from '@mui/material';
 
 import { IPost } from 'src/redux/posts/interfaces';
 import { themePalette } from 'src/theme';
-import { Button } from 'src/_components';
+import { Button } from 'src/components';
 
 const useStyles = makeStyles({
 	postWrapper: {

@@ -3,13 +3,13 @@ import { makeStyles } from '@material-ui/core';
 import { Grid } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
-import { LinkButton, Wrapper } from 'src/_components';
+import { LinkButton, Wrapper } from 'src/components';
 import { useAppDispatch, useAppSelector } from 'src/redux/hooks';
 import { fetchComments } from 'src/redux/comments/commentsService';
 import { IComment } from 'src/redux/comments/interfaces';
 import { themePalette } from 'src/theme';
 
-import { CommentComponent } from './_components';
+import { CommentComponent } from './components';
 
 const useStyles = makeStyles({
 	homeWrapper: {

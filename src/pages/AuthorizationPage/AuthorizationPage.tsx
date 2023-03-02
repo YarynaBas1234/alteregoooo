@@ -8,9 +8,9 @@ import { useAppDispatch, useAppSelector } from 'src/redux/hooks';
 import { loginUser } from 'src/redux/auth/authService';
 import { RoutePathConst } from 'src/constants';
 import { themePalette } from 'src/theme';
-import { Button } from 'src/_components';
+import { Button } from 'src/components';
 
-import { TextFieldPassword } from './_components';
+import { TextFieldPassword } from './components';
 
 const useStyles = makeStyles({
 	wrapper: {
