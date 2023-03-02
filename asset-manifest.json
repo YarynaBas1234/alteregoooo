@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AlterEgoooo/static/css/main.b3eeeea7.css",
-    "main.js": "/AlterEgoooo/static/js/main.da621801.js",
+    "main.js": "/AlterEgoooo/static/js/main.e011ce8f.js",
     "static/js/787.b49d41f1.chunk.js": "/AlterEgoooo/static/js/787.b49d41f1.chunk.js",
     "index.html": "/AlterEgoooo/index.html",
     "main.b3eeeea7.css.map": "/AlterEgoooo/static/css/main.b3eeeea7.css.map",
-    "main.da621801.js.map": "/AlterEgoooo/static/js/main.da621801.js.map",
+    "main.e011ce8f.js.map": "/AlterEgoooo/static/js/main.e011ce8f.js.map",
     "787.b49d41f1.chunk.js.map": "/AlterEgoooo/static/js/787.b49d41f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3eeeea7.css",
-    "static/js/main.da621801.js"
+    "static/js/main.e011ce8f.js"
   ]
 }
