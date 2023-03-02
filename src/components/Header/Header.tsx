@@ -105,7 +105,7 @@ const Header = () => {
 							display: { xs: 'none', md: 'flex' },
 						}}>
 							<Link to='/' aria-label='h1'>
-								<img src={processEnv + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
+								<img src='/pictures/logo.png' className={styles.logo} alt='avatar' />
 							</Link>
 					</Box>
 					<Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -159,7 +159,7 @@ const Header = () => {
 							flexGrow: 1,
 						}}>
 							<Link to='/' aria-label='h1'>
-								<img src={processEnv + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
+								<img src='/pictures/logo.png' className={styles.logo} alt='avatar' />
 							</Link>
 					</Box>
 					<Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
