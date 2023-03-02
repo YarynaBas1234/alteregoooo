@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/alteregoooo/static/css/main.b3eeeea7.css",
-    "main.js": "/alteregoooo/static/js/main.2663e590.js",
-    "static/js/787.b49d41f1.chunk.js": "/alteregoooo/static/js/787.b49d41f1.chunk.js",
-    "index.html": "/alteregoooo/index.html",
-    "main.b3eeeea7.css.map": "/alteregoooo/static/css/main.b3eeeea7.css.map",
-    "main.2663e590.js.map": "/alteregoooo/static/js/main.2663e590.js.map",
-    "787.b49d41f1.chunk.js.map": "/alteregoooo/static/js/787.b49d41f1.chunk.js.map"
+    "main.css": "./static/css/main.b3eeeea7.css",
+    "main.js": "./static/js/main.df4ce71c.js",
+    "static/js/787.b49d41f1.chunk.js": "./static/js/787.b49d41f1.chunk.js",
+    "index.html": "./index.html",
+    "main.b3eeeea7.css.map": "./static/css/main.b3eeeea7.css.map",
+    "main.df4ce71c.js.map": "./static/js/main.df4ce71c.js.map",
+    "787.b49d41f1.chunk.js.map": "./static/js/787.b49d41f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3eeeea7.css",
-    "static/js/main.2663e590.js"
+    "static/js/main.df4ce71c.js"
   ]
 }
