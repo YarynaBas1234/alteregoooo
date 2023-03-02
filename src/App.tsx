@@ -25,16 +25,6 @@ const useStyles = makeStyles({
 	},
 });
 
-
-// "dev": "next dev",
-// "build": "next build",
-// "start": "next start",
-// "export": "next export",
-// "publish": "subpath-as-branch --path dist --branch gh-pages",
-// "predeploy": "npm run build",
-// "deploy": "gh-pages -d build"
-
-
 const App = () => {
 	const styles = useStyles();
 	const dispatch = useAppDispatch();
