@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AlterEgoooo/static/css/main.b3eeeea7.css",
-    "main.js": "/AlterEgoooo/static/js/main.e011ce8f.js",
-    "static/js/787.b49d41f1.chunk.js": "/AlterEgoooo/static/js/787.b49d41f1.chunk.js",
-    "index.html": "/AlterEgoooo/index.html",
-    "main.b3eeeea7.css.map": "/AlterEgoooo/static/css/main.b3eeeea7.css.map",
-    "main.e011ce8f.js.map": "/AlterEgoooo/static/js/main.e011ce8f.js.map",
-    "787.b49d41f1.chunk.js.map": "/AlterEgoooo/static/js/787.b49d41f1.chunk.js.map"
+    "main.css": "/yarynabas1234/AlterEgoooo/static/css/main.b3eeeea7.css",
+    "main.js": "/yarynabas1234/AlterEgoooo/static/js/main.c4d92b58.js",
+    "static/js/787.b49d41f1.chunk.js": "/yarynabas1234/AlterEgoooo/static/js/787.b49d41f1.chunk.js",
+    "index.html": "/yarynabas1234/AlterEgoooo/index.html",
+    "main.b3eeeea7.css.map": "/yarynabas1234/AlterEgoooo/static/css/main.b3eeeea7.css.map",
+    "main.c4d92b58.js.map": "/yarynabas1234/AlterEgoooo/static/js/main.c4d92b58.js.map",
+    "787.b49d41f1.chunk.js.map": "/yarynabas1234/AlterEgoooo/static/js/787.b49d41f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3eeeea7.css",
-    "static/js/main.e011ce8f.js"
+    "static/js/main.c4d92b58.js"
   ]
 }
