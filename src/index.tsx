@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { HashRouter, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from '@mui/material';
 
@@ -12,7 +12,7 @@ import store from './redux';
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
 	<Provider store={store}>
-		<HashRouter>
+		{/* <HashRouter> */}
 			<BrowserRouter>
 				<ThemeProvider theme={theme}>
 					<React.StrictMode>
@@ -20,7 +20,7 @@ root.render(
 					</React.StrictMode>
 				</ThemeProvider>
 			</BrowserRouter>
-		</HashRouter>
+		{/* </HashRouter> */}
 	</Provider>
 );
 
