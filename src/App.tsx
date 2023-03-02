@@ -48,7 +48,7 @@ const App = () => {
 						: <Route path={RoutePathConst.Profile + userData.id} element={<Navigate to={RoutePathConst.Home} replace />} />
 					}
 
-					<Route path='alteregoooo/*' element={<Homepage />} />
+					<Route path='/*' element={<Homepage />} />
 				</Routes>
 
 				<ToastContainer
