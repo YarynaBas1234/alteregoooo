@@ -11,8 +11,8 @@ import store from './redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-	<HashRouter>
-		<Provider store={store}>
+	<Provider store={store}>
+		<HashRouter>
 			<BrowserRouter>
 				<ThemeProvider theme={theme}>
 					<React.StrictMode>
@@ -20,8 +20,8 @@ root.render(
 					</React.StrictMode>
 				</ThemeProvider>
 			</BrowserRouter>
-		</Provider>
-	</HashRouter>
+		</HashRouter>
+	</Provider>
 );
 
 reportWebVitals();
