@@ -1,6 +1,6 @@
 export enum RoutePathConst {
-  Home = '/',
-  News = '/news',
-  Login = '/login',
-  Profile = '/profile/'
+  Home = `alteregoooo/`,
+  News = `alteregoooo/news`,
+  Login = `alteregoooo/login`,
+  Profile = `alteregoooo/profile/`
 };

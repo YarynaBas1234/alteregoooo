@@ -6,7 +6,7 @@ import { Grid, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 import { Button, Wrapper } from 'src/components';
-import { PUBLIC_URL } from 'src/constants';
+import { PUBLIC_URL, RoutePathConst } from 'src/constants';
 
 const useStyles = makeStyles({
 	profileWrapper: {
@@ -91,7 +91,7 @@ const ProfilePage = () => {
 							<Row title={t('PROFILE_PAGE.EMAIL')} dataRow={loggedInUserData.email} />
 						</Grid>
 						<Grid container justifyContent='center' mt={4}>
-							<Button onClick={() => navigate('/')} label={t('BUTTONS.HOME')} />
+							<Button onClick={() => navigate(RoutePathConst.Home)} label={t('BUTTONS.HOME')} />
 						</Grid>
 					</Grid>
 				</Grid>

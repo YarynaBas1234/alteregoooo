@@ -63,11 +63,11 @@ const Header = () => {
 	const pages = [
 		{
 			title: 'HEADER.HOME',
-			to: '/',
+			to: RoutePathConst.Home,
 		},
 		{
 			title: 'HEADER.NEWS',
-			to: '/news',
+			to: RoutePathConst.News,
 		},
 		{
 			title: 'HEADER.PROFILE',
@@ -88,7 +88,7 @@ const Header = () => {
 
 	const handleLogout = () => {
 		dispatch(logoutUser());
-		navigate('/');
+		navigate(RoutePathConst.Home);
 	}
 
 	const handleLogin = () => {
@@ -104,7 +104,7 @@ const Header = () => {
 							mr: 2,
 							display: { xs: 'none', md: 'flex' },
 						}}>
-							<Link to='/' aria-label='h1'>
+							<Link to={RoutePathConst.Home} aria-label='h1'>
 								<img src={PUBLIC_URL + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
 							</Link>
 					</Box>
@@ -158,7 +158,7 @@ const Header = () => {
 							display: { xs: 'flex', md: 'none' },
 							flexGrow: 1,
 						}}>
-							<Link to='/' aria-label='h1'>
+							<Link to={RoutePathConst.Home} aria-label='h1'>
 								<img src={PUBLIC_URL + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
 							</Link>
 					</Box>

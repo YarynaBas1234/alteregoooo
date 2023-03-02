@@ -40,15 +40,15 @@ const App = () => {
 			<Header />
 			<Grid className={styles.wrapper}>
 				<Routes>
-					<Route path={`${process.env.NODE_ENV}/${RoutePathConst.Home}`} element={<Homepage />} />
-					<Route path={`${process.env.NODE_ENV}/${RoutePathConst.News}`} element={<Newspage />} />
-					<Route path={`${process.env.NODE_ENV}/${RoutePathConst.Login}`} element={<AuthorizationPage />} />
+					<Route path={RoutePathConst.Home} element={<Homepage />} />
+					<Route path={RoutePathConst.News} element={<Newspage />} />
+					<Route path={RoutePathConst.Login} element={<AuthorizationPage />} />
 					{isLoggedIn 
-						? <Route path={`${process.env.NODE_ENV}/${RoutePathConst.Profile + userData.id}`} element={<ProfilePage />} />
-						: <Route path={`${process.env.NODE_ENV}/${RoutePathConst.Profile + userData.id}`} element={<Navigate to='/' replace />} />
+						? <Route path={RoutePathConst.Profile + userData.id} element={<ProfilePage />} />
+						: <Route path={RoutePathConst.Profile + userData.id} element={<Navigate to={RoutePathConst.Home} replace />} />
 					}
 
-					<Route path={`${process.env.NODE_ENV}/*`} element={<Homepage />} />
+					<Route path='alteregoooo/*' element={<Homepage />} />
 				</Routes>
 
 				<ToastContainer
