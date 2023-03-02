@@ -6,7 +6,7 @@ import { Grid, Typography } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 
 import { Button, Wrapper } from 'src/components';
-import { processEnv } from 'src/constants';
+import { PUBLIC_URL } from 'src/constants';
 
 const useStyles = makeStyles({
 	profileWrapper: {
@@ -79,7 +79,7 @@ const ProfilePage = () => {
 						alignItems='center'
 						className={styles.profileWrapper}>
 						<Grid container flexDirection='column' alignItems='center' className={styles.header}>
-							<img src={processEnv + '/pictures/avatarUser.png'} className={styles.avatar} alt='avatar' />
+							<img src={PUBLIC_URL + '/pictures/avatarUser.png'} className={styles.avatar} alt='avatar' />
 							<Grid>
 								<Typography variant='h2'>{loggedInUserData.name}</Typography>
 								<Typography variant='body1'>{loggedInUserData.position}</Typography>

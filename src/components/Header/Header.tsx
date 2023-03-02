@@ -15,7 +15,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu';
 import { makeStyles } from '@material-ui/core';
 
-import { languages, processEnv, RoutePathConst } from 'src/constants';
+import { languages, PUBLIC_URL, RoutePathConst } from 'src/constants';
 import { useChangeLanguage } from 'src/hooks';
 import { useAppDispatch, useAppSelector } from 'src/redux/hooks';
 import { logoutUser } from 'src/redux/auth/authService';
@@ -105,7 +105,7 @@ const Header = () => {
 							display: { xs: 'none', md: 'flex' },
 						}}>
 							<Link to='/' aria-label='h1'>
-								<img src={processEnv + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
+								<img src={PUBLIC_URL + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
 							</Link>
 					</Box>
 					<Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -159,7 +159,7 @@ const Header = () => {
 							flexGrow: 1,
 						}}>
 							<Link to='/' aria-label='h1'>
-								<img src={processEnv + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
+								<img src={PUBLIC_URL + '/pictures/logo.png'} className={styles.logo} alt='avatar' />
 							</Link>
 					</Box>
 					<Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
