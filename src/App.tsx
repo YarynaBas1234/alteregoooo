@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core';
 import { Grid } from '@mui/material';
 import { ToastContainer } from 'react-toastify';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 
 import AuthorizationPage from './pages/AuthorizationPage';
 import Homepage from './pages/Homepage';
@@ -43,7 +43,10 @@ const App = () => {
 					<Route path={RoutePathConst.Home} element={<Homepage />} />
 					<Route path={RoutePathConst.News} element={<Newspage />} />
 					<Route path={RoutePathConst.Login} element={<AuthorizationPage />} />
-					{isLoggedIn && <Route path={RoutePathConst.Profile + userData.id} element={<ProfilePage />} />}
+					{isLoggedIn 
+						? <Route path={RoutePathConst.Profile + userData.id} element={<ProfilePage />} />
+						: <Route path={RoutePathConst.Profile + userData.id} element={<Navigate to='/' replace />} />
+					}
 
 					<Route path='*' element={<Homepage />} />
 				</Routes>
